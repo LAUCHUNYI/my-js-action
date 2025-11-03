@@ -18,3 +18,4 @@ greet:
  
       - name: Display greeting output 
         run: echo "Output: ${{ steps.greet.outputs.greeting }}"
+        shell: bash
